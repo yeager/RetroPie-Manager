@@ -1,0 +1,338 @@
+# Swedish translation for RetroPie-Manager.
+# Copyright (C) 2025
+# This file is distributed under the same license as the RetroPie package.
+# Daniel Nylander <po@danielnylander.se>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-23 00:38+0100\n"
+"PO-Revision-Date: 2025-03-05 09:36+0100\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: manager_frontend/crumbs.py:9
+msgid "Home"
+msgstr "Hem"
+
+#: manager_frontend/crumbs.py:10 templates/skeleton.html:51
+msgid "Bios"
+msgstr "Bios"
+
+#: manager_frontend/crumbs.py:11 templates/skeleton.html:50
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: manager_frontend/crumbs.py:12 templates/skeleton.html:53
+msgid "Logs"
+msgstr "Loggar"
+
+#: manager_frontend/crumbs.py:13 templates/skeleton.html:49
+msgid "Monitoring"
+msgstr "Övervakning"
+
+#: manager_frontend/crumbs.py:14
+msgid "Rom by system"
+msgstr "Rom per system"
+
+#: manager_frontend/crumbs.py:15
+msgid "{{ system_name }}"
+msgstr "{{ system_name }}"
+
+#: manager_frontend/forms/__init__.py:23
+msgid "Submit"
+msgstr "Skicka"
+
+#: manager_frontend/forms/bios.py:76
+msgid "Bios file"
+msgstr "BIOS-fil"
+
+#: manager_frontend/forms/bios.py:98
+msgid "Your file does not seem to be a supported Bios"
+msgstr "Din fil verkar inte vara en Bios som stöds"
+
+#: manager_frontend/forms/bios.py:102
+msgid "Your file does not have a correct MD5 checksum"
+msgstr "Din fil har inte en korrekt MD5-kontrollsumma"
+
+#: manager_frontend/forms/config.py:22
+msgid "Content"
+msgstr "Innehåll"
+
+#: manager_frontend/forms/config.py:23
+#: manager_frontend/templates/manager_frontend/config_form.html:38
+msgid "Backup previous version before saving"
+msgstr "Säkerhetskopiera tidigare version innan du sparar"
+
+#: manager_frontend/forms/roms.py:60
+msgid "Rom file"
+msgstr "Rom-fil"
+
+#: manager_frontend/forms/roms.py:80
+msgid "Your file does not seem to be a valid Rom for this system"
+msgstr "Din fil verkar inte vara en giltig Rom för det här systemet"
+
+#: manager_frontend/forms/systems.py:32
+msgid "Add a new system"
+msgstr "Lägg till ett nytt system"
+
+#: manager_frontend/templates/manager_frontend/bios_list.html:27
+#: manager_frontend/templates/manager_frontend/config_form.html:13
+#: manager_frontend/templates/manager_frontend/config_form.html:50
+#: manager_frontend/templates/manager_frontend/logs_detail.html:6
+#: manager_frontend/templates/manager_frontend/rom_list.html:27
+#: manager_frontend/templates/manager_frontend/systems_list.html:6
+msgid "Path"
+msgstr "Sökväg"
+
+#: manager_frontend/templates/manager_frontend/bios_list.html:28
+#: manager_frontend/templates/manager_frontend/monitoring.html:74
+#: manager_frontend/templates/manager_frontend/rom_list.html:28
+#: manager_frontend/templates/manager_frontend/systems_list.html:7
+msgid "Total"
+msgstr "Totalt"
+
+#: manager_frontend/templates/manager_frontend/bios_list.html:54
+msgid "Upload a bios"
+msgstr "Skicka upp en bios"
+
+#: manager_frontend/templates/manager_frontend/bios_list.html:82
+msgid ""
+"This is the full list of supported Bios, existing bios you have uploaded "
+"will be decorated and followed with a checkbox"
+msgstr ""
+"Detta är den fullständiga listan över Bios som stöds, befintliga Bios som du "
+"har skickats upp kommer att dekoreras och följas av en kryssruta"
+
+#: manager_frontend/templates/manager_frontend/bios_list.html:85
+#: manager_frontend/templates/manager_frontend/bios_list.html:114
+#: manager_frontend/templates/manager_frontend/rom_list.html:91
+#: manager_frontend/templates/manager_frontend/rom_list.html:112
+msgid "Delete selected files"
+msgstr "Ta bort valda filer"
+
+#: manager_frontend/templates/manager_frontend/bios_list.html:94
+msgid "System"
+msgstr "System"
+
+#: manager_frontend/templates/manager_frontend/bios_list.html:95
+#: manager_frontend/templates/manager_frontend/rom_list.html:96
+msgid "Filename"
+msgstr "Filnamn"
+
+#: manager_frontend/templates/manager_frontend/bios_list.html:96
+msgid "MD5 checksum"
+msgstr "MD5-kontrollsumma"
+
+#: manager_frontend/templates/manager_frontend/bios_list.html:97
+#: manager_frontend/templates/manager_frontend/rom_list.html:98
+msgid "Check"
+msgstr "Kontrollera"
+
+#: manager_frontend/templates/manager_frontend/config_form.html:6
+msgid "Current"
+msgstr "Nuvarande"
+
+#: manager_frontend/templates/manager_frontend/config_form.html:7
+msgid "Backup"
+msgstr "Säkerhetskopia"
+
+#: manager_frontend/templates/manager_frontend/config_form.html:41
+msgid "Save"
+msgstr "Spara"
+
+#: manager_frontend/templates/manager_frontend/home.html:14
+msgid "<strong>Monitor</strong> your system resources"
+msgstr "<strong>Övervaka</strong> dina systemresurser"
+
+#: manager_frontend/templates/manager_frontend/home.html:20
+msgid "Read and edit the Recalbox <strong>Configuration</strong> file"
+msgstr "Läs och redigera <strong>konfigurationsfilen</strong> för Recalbox"
+
+#: manager_frontend/templates/manager_frontend/home.html:26
+msgid "Read the Recalbox <strong>logs</strong>"
+msgstr "Läs Recalbox <strong>loggar</strong>"
+
+#: manager_frontend/templates/manager_frontend/home.html:32
+msgid "Manage all supported <strong>Bios</strong> files for emulated systems"
+msgstr ""
+"Hantera alla <strong>Bios-filer</strong> som stöds för emulerade system"
+
+#: manager_frontend/templates/manager_frontend/home.html:38
+msgid "Manage <strong>Rom</strong> files for emulated systems"
+msgstr "Hantera <strong>Rom-filer</strong> för emulerade system"
+
+#: manager_frontend/templates/manager_frontend/home.html:44
+msgid "Use the <strong>Virtual gamepad</strong>"
+msgstr "Använd den <strong>virtuella gamepaden</strong>"
+
+#: manager_frontend/templates/manager_frontend/monitoring.html:10
+msgid "CPU"
+msgstr "CPU"
+
+#: manager_frontend/templates/manager_frontend/monitoring.html:16
+#, python-format
+msgid "Core&nbsp;%(number)s"
+msgstr "Kärna&nbsp;%(number)s"
+
+#: manager_frontend/templates/manager_frontend/monitoring.html:36
+msgid "Memory"
+msgstr "Minne"
+
+#: manager_frontend/templates/manager_frontend/monitoring.html:39
+#, python-format
+msgid "Free: %(size)s"
+msgstr "Ledigt: %(size)s"
+
+#: manager_frontend/templates/manager_frontend/monitoring.html:48
+#, python-format
+msgid "Total: %(size)s"
+msgstr "Totalt: %(size)s"
+
+#: manager_frontend/templates/manager_frontend/monitoring.html:54
+msgid "CPU Temperature"
+msgstr "CPU-temperatur"
+
+#: manager_frontend/templates/manager_frontend/monitoring.html:56
+msgid "Max"
+msgstr "Max"
+
+#: manager_frontend/templates/manager_frontend/monitoring.html:64
+msgid "File system"
+msgstr "Filsystem"
+
+#: manager_frontend/templates/manager_frontend/monitoring.html:68
+msgid "Device"
+msgstr "Enhet"
+
+#: manager_frontend/templates/manager_frontend/monitoring.html:69
+msgid "Mount"
+msgstr "Montera"
+
+#: manager_frontend/templates/manager_frontend/monitoring.html:70
+msgid "Type"
+msgstr "Typ"
+
+#: manager_frontend/templates/manager_frontend/monitoring.html:71
+msgid "Usage"
+msgstr "Användning"
+
+#: manager_frontend/templates/manager_frontend/monitoring.html:72
+msgid "Used"
+msgstr "Använt"
+
+#: manager_frontend/templates/manager_frontend/monitoring.html:73
+msgid "Free"
+msgstr "Ledigt"
+
+#: manager_frontend/templates/manager_frontend/rom_list.html:35
+#, python-format
+msgid ""
+"This system requires one or more <a href=\"%(bios_url)s\">bios</a> file that "
+"are missing from your installation:"
+msgstr ""
+"Det här systemet kräver en eller flera <a href=\"%(bios_url)s\">bios-filer</"
+"a> som saknas i din installation:"
+
+#: manager_frontend/templates/manager_frontend/rom_list.html:64
+msgid "Upload a rom"
+msgstr "Skicka upp ett rom"
+
+#: manager_frontend/templates/manager_frontend/rom_list.html:97
+msgid "Size"
+msgstr "Storlek"
+
+#: manager_frontend/templates/manager_frontend/systems_list.html:31
+msgid "Available systems"
+msgstr "Tillgängliga system"
+
+#: manager_frontend/templates/manager_frontend/systems_list.html:37
+msgid "Add"
+msgstr "Lägg till"
+
+#: manager_frontend/views/bios.py:90 manager_frontend/views/roms.py:128
+msgid "File has been uploaded: {}"
+msgstr "Filen har skickats upp: {}"
+
+#: manager_frontend/views/bios.py:97 manager_frontend/views/roms.py:135
+msgid "Deleted file(s): {}"
+msgstr "Tog bort fil(er): {}"
+
+#: manager_frontend/views/config.py:75
+msgid "File has been backuped then edited"
+msgstr "Filen har säkerhetskopierats och sedan redigerats"
+
+#: manager_frontend/views/config.py:77
+msgid "File has been edited"
+msgstr "Filen har redigerats"
+
+#: manager_frontend/views/systems.py:70
+msgid "System \"{}\" has been created"
+msgstr "Systemet \"{}\" har skapats"
+
+#: settings.py:122
+msgid "English"
+msgstr "Engelska"
+
+#: settings.py:123
+msgid "French"
+msgstr "Franska"
+
+#: settings.py:124
+msgid "German"
+msgstr "Tyska"
+
+#: templates/404.html:6 templates/404.html.py:14
+msgid "Error 404"
+msgstr "Fel 404"
+
+#: templates/404.html:6 templates/404.html.py:14
+msgid "Not found"
+msgstr "Hittades inte"
+
+#: templates/404.html:15
+msgid "The ressource you tried to reach does not exists"
+msgstr "Den resurs du försökte nå finns inte"
+
+#: templates/500.html:6 templates/500.html.py:14
+msgid "Error 500"
+msgstr "Fel 500"
+
+#: templates/500.html:6 templates/500.html.py:14
+msgid "Internal Server Error"
+msgstr "Internt serverfel"
+
+#: templates/500.html:15
+msgid ""
+"The server encountered an internal server error or misconfiguration and was "
+"unable to complete your request."
+msgstr ""
+"Servern stötte på ett internt serverfel eller en felkonfiguration och kunde "
+"inte slutföra din begäran."
+
+#: templates/skeleton.html:52
+msgid "Roms"
+msgstr "ROMar"
+
+#: templates/skeleton.html:55
+msgid "Links"
+msgstr "Länkar"
+
+#: templates/skeleton.html:57
+msgid "Forum"
+msgstr "Forum"
+
+#: templates/skeleton.html:58
+msgid "https://github.com/digitalLumberjack/recalbox-os/wiki/Home-(EN)"
+msgstr "https://github.com/digitalLumberjack/recalbox-os/wiki/Home-(EN)"
+
+#: templates/skeleton.html:58
+msgid "Wiki (EN)"
+msgstr "Wiki (EN)"
